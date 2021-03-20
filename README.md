@@ -19,7 +19,8 @@ ex: type --> tagpets 170 race ids str size age --> Enter
 	  4/12y-- remaining years until a unit becomes old: 4 years (Formatted to 3 characters, the other 2 characters are spaces so it can be properly sorted on the animals interface. For instance, between 4, 110, and 63, 110 is the largest, and 63 is the second, but if sorted without the spaces, the result becomes 63 -> 4 -> 110
 
 Syntax:
-petnames [...]
+petnames {...}
+petnames 170 race str tgh age
 
 rules: 
 * all arguments must be separated by spaces.  
