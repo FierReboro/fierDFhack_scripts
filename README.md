@@ -19,34 +19,34 @@ ex: type --> tagpets 170 race ids str size age --> Enter
 
 Syntax:
 rules: 
-* all arguments must be separated by spaces.
-* arguments under the "menu" section must be called alone.
-* any number of arguments under the both "naming" and "specifier" section can be called together, as long as there's no duplicate.
-* "naming" arguments are processed based on order.
-* "specifier" arguments have combination effects.
--- if ALL is the only specifier called, then all pets and livestockes will be affected
--- if numbers are the only specifiers, then pets and livestocks which has the same creature number will be affected.
--- if ALL and any numbers are called, then all pets and livestocks except those with the creature numbers will be affected.
+* all arguments must be separated by spaces.  
+* arguments under the "menu" section must be called alone.  
+* any number of arguments under the both "naming" and "specifier" section can be called together, as long as there's no duplicate.  
+* "naming" arguments are processed based on order.  
+* "specifier" arguments have combination effects.  
+-- if ALL is the only specifier called, then all pets and livestockes will be affected.  
+-- if numbers are the only specifiers, then pets and livestocks which has the same creature number will be affected.  
+-- if ALL and any numbers are called, then all pets and livestocks except those with the creature numbers will be affected.  
 
-args: 
---menu:
-	help -- shows this dialog
-	refs -- list reference id of all creatures
-	show -- show all nicknames of pets and livestocks
-	rset -- removes all nicknames of pets and livestocks(does not affect game-generated nicknames)
+args:  
+--menu:  
+	help -- shows this dialog  
+	refs -- list reference id of all creatures  
+	show -- show all nicknames of pets and livestocks  
+	rset -- removes all nicknames of pets and livestocks(does not affect game-generated nicknames)  
 
 --naming:
-	race -- species name
-	ids -- creature ref number
-	size -- body size modifier
-	age -- remaining years until old
-	str -- strength,"St"
-	tgh -- toughness,"Tg"
-	agi -- agility,"Ag"
-	end -- endurance,"En"
-	rec -- recuperation,"Rc"
-	imm -- immunity/disease resistance,"Dr"
+	race -- species name  
+	ids -- creature ref number  
+	size -- body size modifier  
+	age -- remaining years until old  
+	str -- strength,"St"  
+	tgh -- toughness,"Tg"  
+	agi -- agility,"Ag"  
+	end -- endurance,"En"  
+	rec -- recuperation,"Rc"  
+	imm -- immunity/disease resistance,"Dr"  
 
 --specifier:
-	ALL - all livestocks
-	### - creature number
+	ALL - all livestocks  
+	### - creature number  
