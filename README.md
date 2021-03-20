@@ -10,12 +10,12 @@ tagpets.lua
 
 ex: type --> tagpets 170 race ids str size age --> Enter
  result: "dogM 170M 28N/50% 101cu   4/12y"
-	*dogM -- dog male, male (F for female)
-	*170M -- creature number for dogs, male
-	*28N -- maximum attainable physical attribute(strength in this example): 2800 divided by 	100
-	*/50%-- percentage of current attribute with respect to maximum: 50%
-	*101cu -- body size modifuer
-	*  4/12y-- remaining years until a unit becomes old: 4 years (Formatted to 3 characters, the other 2 characters are spaces so it can be properly sorted on the animals interface. 
+	* dogM -- dog male, male (F for female)
+	* 170M -- creature number for dogs, male
+	* 28N -- maximum attainable physical attribute(strength in this example): 2800 divided by 	100
+	* /50%-- percentage of current attribute with respect to maximum: 50%
+	* 101cu -- body size modifuer
+	*   4/12y-- remaining years until a unit becomes old: 4 years (Formatted to 3 characters, the other 2 characters are spaces so it can be properly sorted on the animals interface. 
 for instance, between 4, 110, and 63, 110 is the largest, and 63 is the second, but if sorted without the spaces, the result becomes 63 -> 4 -> 110
 
 Syntax:
