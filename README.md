@@ -47,6 +47,6 @@ args:
 	rec -- recuperation,"Rc"  
 	imm -- immunity/disease resistance,"Dr"  
 
---specifier:
+--specifier:  
 	ALL - all livestocks  
 	### - creature number  
