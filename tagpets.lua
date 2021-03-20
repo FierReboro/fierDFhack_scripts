@@ -218,19 +218,19 @@ args:
 
 	--[[CHOOSING EXECUTION PATH]]	
 	if (not s_all["ALL"] and not s_num["num"]) then
-		for a,v in ipairs(dfx) do
+		for _,v in ipairs(dfx) do
 			if (not h[v.race] and validunit(v)) then
 				nickname(v)
 			end
 		end
 	elseif not s_all["ALL"] then
-		for a,v in ipairs(dfx) do
+		for _,v in ipairs(dfx) do
 			if (validunit(v)) then
 				nickname(v)
 			end
 		end
 	elseif not s_num["num"] then
-		for a,v in ipairs(dfx) do
+		for _,v in ipairs(dfx) do
 			if (h[v.race] and validunit(v)) then
 				nickname(v)
 			end
