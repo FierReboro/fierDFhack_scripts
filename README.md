@@ -11,7 +11,7 @@ Notice: This script does not affect first_name and last_name
 
 ex: type --> tagpets 170 race ids str size age --> Enter  
  result: "dogM 170M 28N/50% 101cu   4/12y"  
-	dogM -- dog male, male (F for female)  
+	dogM -- dog, male (F for female)  
 	170M -- creature number for dogs, male  
 	28N -- maximum attainable physical attribute(strength in this example): 2800 divided by 100  
 	/50%-- percentage of current attribute with respect to maximum: 50%  
