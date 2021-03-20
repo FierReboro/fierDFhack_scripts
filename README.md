@@ -7,6 +7,7 @@ To use, download tagpets.lua and paste it to \*main\*/hack/scripts.
 tagpets.lua
 ---------
 	A script that places a nickname on owned animals with a technical format based on their attributes. Best used with dfhack's "sort-units name" command while on the animals interface(defaul "z" -> animals). Type and enter "sort-units" in the dfhack console for instructions. Default keybinding for Dfhack 47.05 is "Shift+Alt+N"
+Notice: This script does not affect first_name and last_name
 
 ex: type --> tagpets 170 race ids str size age --> Enter  
  result: "dogM 170M 28N/50% 101cu   4/12y"  
@@ -33,7 +34,7 @@ args:
 	help -- shows this dialog  
 	refs -- list reference id of all creatures  
 	show -- show all nicknames of pets and livestocks  
-	rset -- removes all nicknames of pets and livestocks(does not affect game-generated nicknames)  
+	rset -- removes all nicknames of pets and livestocks(does not affect game-generated firstname or lastname)  
 
 --naming:
 	race -- species name  
