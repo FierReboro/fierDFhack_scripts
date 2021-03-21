@@ -34,7 +34,7 @@ ex: petnames 170 race str tgh age
 args:  
 --menu:  
 	help -- shows this dialog  
-	refs -- list reference id of all creatures  
+	refs -- list reference number of all creatures  
 	show -- show all nicknames of pets and livestocks  
 	rset -- removes all nicknames of pets and livestocks(does not affect game-generated firstname or lastname)  
 
@@ -52,4 +52,4 @@ args:
 
 --specifier:  
 	ALL - all livestocks  
-	### - creature number  
+	### - any creature number(see 'refs' for list)
