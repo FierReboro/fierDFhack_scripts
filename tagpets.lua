@@ -4,7 +4,7 @@ function main(...)
 	local n = 0
 	while args[n+1] do n=n+1 end --"count number of arguments"
 	--print("no. of arguments: "..n)
-	if n<1 then print(help) return end
+	if n<1 then print("type and enter \"tagpets help\" for instructions") return end
 	
 	help = [=[
 
