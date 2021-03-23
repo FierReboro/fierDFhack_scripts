@@ -172,7 +172,7 @@ args:
 			nname = nname..cd
 		end
 	
-		local attr_func = {
+		local a_args = {
 			["age"] = 	function ()
 						local o_year, b_year, c_year, age_l, rem
 						o_year = u.old_year
@@ -208,7 +208,7 @@ args:
 			
 			local n = 1
 			for _,v in pairs(ja) do
-				attr_func[v]()
+				a_args[v]()
 			end
 			--print(nname)
 			local nick = u.name
